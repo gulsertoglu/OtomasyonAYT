@@ -9,11 +9,9 @@
     <p id="cihaz-id">Durum: SDK Yükleniyor...</p>
 
     <script>
-        // --- BOMBA GEÇİRMEZ YÖNTEM ---
-        // Python'dan gelen token'ı 'tojson' filtresiyle alıyoruz.
-        // Bu, token'ın içinde ' veya " gibi patlayan karakterler olsa bile
-        // bunu güvenli bir JavaScript string'ine çevirir.
-        const accessToken = {{ Access_token | tojson }};
+        // tojson filtresi, token'daki ' veya " gibi karakterleri
+        // güvenli JavaScript string'ine çevirir. PATLAMAZ.
+        const accessToken = {{ access_token | tojson }};
 
         window.onSpotifyWebPlaybackSDKReady = () => {
             document.getElementById("cihaz-id").innerText = "Durum: SDK Hazır. Oynatıcı kuruluyor...";
@@ -47,7 +45,6 @@
                 document.getElementById("cihaz-id").innerText = "BASARILI! Cihaz ID: " + device_id;
             });
 
-            // Cihaz çevrimdışı
             player.addListener('not_ready', ({ device_id }) => {
                 console.log('Cihaz çevrimdışı oldu', device_id);
             });

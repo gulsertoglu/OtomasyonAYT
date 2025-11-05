@@ -4,8 +4,8 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
 # Bilgileriniz
-YOUR_CLIENT_ID = "b751a8a9b2634be0bec840ce8fd6c048"
-YOUR_CLIENT_SECRET = "d61c7100768f413fadee56dcafd91377"
+YOUR_CLIENT_ID = "c53e2005ca4146a891209c41df9878ed"
+YOUR_CLIENT_SECRET = "d0ea3841b1394afc8e43b3e4d50fab77"
 YOUR_REDIRECT_URI = "http://127.0.0.1:8888"
 scope = "user-modify-playback-state user-read-playback-state user-read-currently-playing"
 

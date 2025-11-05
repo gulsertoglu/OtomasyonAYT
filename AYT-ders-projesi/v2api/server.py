@@ -4,10 +4,10 @@ from flask import Flask, render_template
 import sys
 
 # --- BİLGİLERİNİ GİR (DEĞİŞTİRME BURAYI) ---
-CLIENT_ID = "b751a8a9b2634be0bec840ce8fd6c048"
-CLIENT_SECRET = "d61c7100768f413fadee56dcafd91377"
+CLIENT_ID = "c53e2005ca4146a891209c41df9878ed"
+CLIENT_SECRET = "d0ea3841b1394afc8e43b3e4d50fab77"
 REDIRECT_URI = "http://127.0.0.1:8888" # BU ADRESLE AUTH ALMIŞTIK!
-SCOPE = "user-modify-playback-state user-read-playback-state user-read-currently-playing"
+SCOPE = "streaming user-read-email user-read-private user-read-playback-state user-modify-playback-state user-read-currently-playing"
 
 # --- GLOBAL DEĞİŞKENLER ---
 app = Flask(__name__)
@@ -19,11 +19,13 @@ def setup_spotify_auth():
     try:
         print("Kimlik doğrulama yöneticisi (Auth Manager) kuruluyor...")
         auth_manager = SpotifyOAuth(
-            client_id=CLIENT_ID,
-            client_secret=CLIENT_SECRET,
-            redirect_uri=REDIRECT_URI,
-            scope=SCOPE,
-            open_browser=True # Cache yoksa tarayıcıyı AÇ
+        client_id=CLIENT_ID,
+        client_secret=CLIENT_SECRET,
+        redirect_uri=REDIRECT_URI,
+        scope=SCOPE,
+        open_browser=True,
+        cache_path=".cache-yeni",  # Bu kalmalı
+        show_dialog=True            # Bu kalmalı
         )
         
         # --- EN ÖNEMLİ KISIM: TOKEN'I ŞİMDİ ALMAYA ZORLA ---
@@ -85,7 +87,7 @@ if setup_spotify_auth():
     print(f"Lütfen tarayıcınızda http://127.0.0.1:8888 adresini AÇIK TUTUN.")
     
     # Sunucuyu başlat (debug=False, production için daha stabil)
-    app.run(host='127.0.0.1', port=8888, debug=False)
+    app.run(host='127.0.0.1', port=8888, debug=True)
     
 else:
     print("Kimlik doğrulama BAŞARISIZ. Sunucu başlatılamıyor. Terminali kapat.")
