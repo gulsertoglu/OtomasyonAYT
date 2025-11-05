@@ -2,10 +2,13 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException
+from selenium.common.exceptions import TimeoutException, NoSuchElementException 
+from selenium.webdriver.common.keys import Keys
 import time
 from dotenv import load_dotenv
 import os
+
+
 
 
 SPOTIFY_URL = "https://www.spotify.com/"
@@ -102,3 +105,69 @@ except Exception as e:
     print(f" Giriş yapma işleminde beklenmeyen hata: {e}")
     driver.quit()
 
+
+SEARCH_BUTTON_LOCATOR = (By.XPATH, "//[type='search']") 
+SEARCH_INPUT_LOCATOR = (By.XPATH, "//input[@data-testid='search-input']")
+
+Oynatma_dugmesı_locator = (By.XPATH, "//div[@data-testid='action-bar-row']//button[@data-testid='play-button']")
+ilk_sarki_satirini_bulma = (By.XPATH, "//div[@data-testid='tracklist-row'][1]//a")
+
+SARKI_ADI = "Ne Farkeder?"
+SANATCI_ADI = "Pickpocket"
+satir_LOCATOR = "//div[@data-testid='tracklist-row']"
+
+
+
+def tam_eslesen_sarki_xpath(sarki_adi):
+    return f"{satir_LOCATOR}//div/a[text()='{SARKI_ADI}']"
+
+
+try:
+    print("\n--- ARAMA VE ÇALMA İŞLEMİ BAŞLADI ---")
+
+    print("Arama butonuna tıklanıyor...")
+    
+    arama_butonu = WebDriverWait(driver, BEKLEME_SURESI).until(
+        EC.element_to_be_clickable(SEARCH_BUTTON_LOCATOR)
+    )
+    arama_butonu.click()
+    print("Arama sayfasına geçildi.")
+
+    time.sleep(1) 
+    
+    
+    print(f" '{SARKI_ADI}' aratılıyor...")
+    arama_cubugu = WebDriverWait(driver, BEKLEME_SURESI).until(
+        EC.presence_of_element_located(SEARCH_INPUT_LOCATOR)
+    )
+    arama_cubugu.clear()
+    
+    arama_cubugu.send_keys(SARKI_ADI + Keys.ENTER)
+    print("Arama tamamlandı.")
+    
+    
+    sarki_adi_elementi = WebDriverWait(driver, 15).until(
+        EC.presence_of_element_located((By.XPATH, tam_eslesen_sarki_xpath(SARKI_ADI)))
+    )
+    print(f" '{SARKI_ADI}' şarkısı arama sonuçlarında bulundu.")
+
+    sarki_satiri = sarki_adi_elementi.find_element(By.XPATH, f"ancestor::{satir_LOCATOR}")
+    
+   
+    oynat_dugmesi = sarki_satiri.find_element(By.XPATH, ".//button[@data-testid='play-button']")
+    
+    
+    print(f"Tam eşleşen '{SARKI_ADI}' şarkısındaki oynat düğmesine tıklanıyor...")
+    oynat_dugmesi.click()
+    print(f" Şarkı '{SARKI_ADI}' oynatılıyor.")
+
+except TimeoutException:
+    print(" HATA: Element belirlenen süre içinde bulunamadı. Lütfen Spotify'daki locator'ları kontrol edin.")
+except NoSuchElementException:
+    print(" HATA: Element bulunamadı. Muhtemelen XPath'ler (özellikle oynat düğmesi veya satır) güncel değil.")
+except Exception as e:
+    print(f" Arama/Çalma sırasında beklenmeyen hata oluştu: {e}")
+
+finally:
+    time.sleep(3600)
+    pass
