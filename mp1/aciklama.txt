@@ -1,0 +1,1 @@
+Bütün güncellemeler(Jupiter Notebook, Pandas vb.) AYT-ders-projesi dosyası altında yapılmıştır.
