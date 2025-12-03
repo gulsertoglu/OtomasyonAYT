@@ -1,0 +1,807 @@
+{
+  "created_at": "2025-12-03T18:43:08.503866Z",
+  "num_steps": 50,
+  "listen_seconds": 10,
+  "tracks": [
+    {
+      "id": "5AI3IxGcZhQYpzqzVvlhWt",
+      "name": "Canımsın",
+      "artists": [
+        "Duman"
+      ],
+      "album": "Kamikaze",
+      "album_id": "7BTCSq0pQjvQpGg4DYQ3GK",
+      "release_date": "2024-10-11",
+      "duration_ms": 294592,
+      "popularity": 29,
+      "artist_genres_main": [
+        "anatolian rock",
+        "turkish pop"
+      ],
+      "order_index": 0
+    },
+    {
+      "id": "0swicd4mudWGOOURjG07oO",
+      "name": "Yağmur Güncesi",
+      "artists": [
+        "Sakin"
+      ],
+      "album": "Hayat",
+      "album_id": "2UU0byg7ixOnleTAnbpOgs",
+      "release_date": "2008-02-29",
+      "duration_ms": 222493,
+      "popularity": 47,
+      "artist_genres_main": [
+        "anatolian rock"
+      ],
+      "order_index": 1
+    },
+    {
+      "id": "06zRq31imIPMnl9PbL0UnY",
+      "name": "Güneşi Beklerken",
+      "artists": [
+        "mor ve ötesi"
+      ],
+      "album": "Güneşi Beklerken",
+      "album_id": "204mLxqPC6leHbkncgUXuA",
+      "release_date": "2012-12-17",
+      "duration_ms": 260862,
+      "popularity": 46,
+      "artist_genres_main": [
+        "anatolian rock",
+        "turkish pop"
+      ],
+      "order_index": 2
+    },
+    {
+      "id": "3ATSnKuxlq6DzkTOvOU41D",
+      "name": "Hepsi Senin Yüzünden",
+      "artists": [
+        "Skapova"
+      ],
+      "album": "Hayat",
+      "album_id": "1aA1mPgnU7BgzonbLzKGbn",
+      "release_date": "2025-10-17",
+      "duration_ms": 220400,
+      "popularity": 41,
+      "artist_genres_main": [],
+      "order_index": 3
+    },
+    {
+      "id": "6Myulap6zTgfJAGto7L7eM",
+      "name": "Mutlu Taklidi",
+      "artists": [
+        "Can Temiz"
+      ],
+      "album": "Göğün Sonu Yerin Dibinde, Yerin Dibi Göğün Sonunda",
+      "album_id": "3KExiAwSTZyuPliLRAXKAi",
+      "release_date": "2025-08-29",
+      "duration_ms": 274550,
+      "popularity": 28,
+      "artist_genres_main": [],
+      "order_index": 4
+    },
+    {
+      "id": "7m1S7WDiIzuD62gfUu7fWg",
+      "name": "Melek",
+      "artists": [
+        "Duman"
+      ],
+      "album": "Seni Kendime Sakladım",
+      "album_id": "2gvskYWFqq1fW8scp1kdsj",
+      "release_date": "2005-07-04",
+      "duration_ms": 289760,
+      "popularity": 47,
+      "artist_genres_main": [
+        "anatolian rock",
+        "turkish pop"
+      ],
+      "order_index": 5
+    },
+    {
+      "id": "0LK1eyxnHTeTgDAXl02G0s",
+      "name": "Fotograf",
+      "artists": [
+        "Pilli Bebek"
+      ],
+      "album": "Uyandırmadan",
+      "album_id": "2vSjf1m69cQRI26LQDEmdV",
+      "release_date": "2000",
+      "duration_ms": 441626,
+      "popularity": 49,
+      "artist_genres_main": [
+        "anatolian rock"
+      ],
+      "order_index": 6
+    },
+    {
+      "id": "6eJZdsGd7HDn5D3jDDzIRd",
+      "name": "Delilik",
+      "artists": [
+        "Cem Kısmet - Pilli Bebek"
+      ],
+      "album": "Behzat Ç. (Orijinal Dizi ve Film Müzikleri)",
+      "album_id": "4EOwuyYWir0IB9bxErak0N",
+      "release_date": "2012-07-05",
+      "duration_ms": 322933,
+      "popularity": 60,
+      "artist_genres_main": [
+        "anatolian rock"
+      ],
+      "order_index": 7
+    },
+    {
+      "id": "1fZpoShaD1NIwqadYTAfrn",
+      "name": "Bihaber",
+      "artists": [
+        "Vega"
+      ],
+      "album": "Tatlı Sert",
+      "album_id": "4cPlsvqqrkiUsArzZBEcSW",
+      "release_date": "2002-02-13",
+      "duration_ms": 229733,
+      "popularity": 52,
+      "artist_genres_main": [
+        "anatolian rock"
+      ],
+      "order_index": 8
+    },
+    {
+      "id": "4wNOpiEmQkxtAThld54BOi",
+      "name": "Gidenler Var - Kalanlardan",
+      "artists": [
+        "Skapova",
+        "Yahya Babuz"
+      ],
+      "album": "Hayat",
+      "album_id": "1aA1mPgnU7BgzonbLzKGbn",
+      "release_date": "2025-10-17",
+      "duration_ms": 229600,
+      "popularity": 45,
+      "artist_genres_main": [],
+      "order_index": 9
+    },
+    {
+      "id": "3EFqvMnXq9aTzKvYY97XGi",
+      "name": "Haykırdım Ben",
+      "artists": [
+        "Duman"
+      ],
+      "album": "Kufi",
+      "album_id": "5Y2a9iCvO8nflR7838wkrz",
+      "release_date": "2024-12-13",
+      "duration_ms": 298368,
+      "popularity": 45,
+      "artist_genres_main": [
+        "anatolian rock",
+        "turkish pop"
+      ],
+      "order_index": 10
+    },
+    {
+      "id": "5qdtL7xVn7V7AoxhMjM1R2",
+      "name": "Biliyorsun",
+      "artists": [
+        "Redd"
+      ],
+      "album": "Biliyorsun",
+      "album_id": "1vstdK2thDKrgToZO3IBOb",
+      "release_date": "2024-09-27",
+      "duration_ms": 229071,
+      "popularity": 47,
+      "artist_genres_main": [
+        "anatolian rock"
+      ],
+      "order_index": 11
+    },
+    {
+      "id": "0CrzShyasw5dgt2mZoYAxW",
+      "name": "Tek Başına",
+      "artists": [
+        "Erkin Koray"
+      ],
+      "album": "İlla Ki",
+      "album_id": "2vEXCo33Pwy0bw8tYXeBG3",
+      "release_date": "1983",
+      "duration_ms": 297200,
+      "popularity": 45,
+      "artist_genres_main": [
+        "anatolian rock",
+        "arabesk"
+      ],
+      "order_index": 12
+    },
+    {
+      "id": "0tvVGyUUocv1yfpXIAzcTc",
+      "name": "Askina Elveda",
+      "artists": [
+        "Cem Köksal"
+      ],
+      "album": "Vigilante (Episode One)",
+      "album_id": "0p50ny7rYvy8IFPARcU869",
+      "release_date": "2011-03-30",
+      "duration_ms": 235933,
+      "popularity": 45,
+      "artist_genres_main": [
+        "anatolian rock"
+      ],
+      "order_index": 13
+    },
+    {
+      "id": "7qdT4zHhEZXngjZRK3xwYD",
+      "name": "İz Bırakanlar Unutulmaz",
+      "artists": [
+        "Vega"
+      ],
+      "album": "Tatlı Sert",
+      "album_id": "4cPlsvqqrkiUsArzZBEcSW",
+      "release_date": "2002-02-13",
+      "duration_ms": 245133,
+      "popularity": 57,
+      "artist_genres_main": [
+        "anatolian rock"
+      ],
+      "order_index": 14
+    },
+    {
+      "id": "2unEjH0rGblXt0GLNqG4gz",
+      "name": "Melankoli",
+      "artists": [
+        "Duman"
+      ],
+      "album": "Darmaduman",
+      "album_id": "6MrE8aTkCV6xuSnVCRJ1Wz",
+      "release_date": "2013-09-12",
+      "duration_ms": 264500,
+      "popularity": 53,
+      "artist_genres_main": [
+        "anatolian rock",
+        "turkish pop"
+      ],
+      "order_index": 15
+    },
+    {
+      "id": "2wXQnHv6iAxTVlsn1emQiX",
+      "name": "Hep Aşk Var",
+      "artists": [
+        "Girift"
+      ],
+      "album": "Hep Aşk Var",
+      "album_id": "1d4fRN7h5h8NPQSXOHIUYX",
+      "release_date": "2025-04-04",
+      "duration_ms": 204784,
+      "popularity": 19,
+      "artist_genres_main": [],
+      "order_index": 16
+    },
+    {
+      "id": "4LUelPtnEA2aJvpQuFoVK9",
+      "name": "Bu Sen misin",
+      "artists": [
+        "Cem Kısmet - Pilli Bebek"
+      ],
+      "album": "Çekiç ve Gül: Bir Behzat Ç Hikayesi (Original TV Series Soundtrack)",
+      "album_id": "7aJLdts7ljlJJg9gYAVjPN",
+      "release_date": "2024-02-12",
+      "duration_ms": 154840,
+      "popularity": 39,
+      "artist_genres_main": [
+        "anatolian rock"
+      ],
+      "order_index": 17
+    },
+    {
+      "id": "5Ts0B8Pj2hkkgTCyDTrBVo",
+      "name": "Edepsiz Komedya",
+      "artists": [
+        "Sakin"
+      ],
+      "album": "Hayat",
+      "album_id": "2UU0byg7ixOnleTAnbpOgs",
+      "release_date": "2008-02-29",
+      "duration_ms": 163373,
+      "popularity": 58,
+      "artist_genres_main": [
+        "anatolian rock"
+      ],
+      "order_index": 18
+    },
+    {
+      "id": "2Duw0LuMDsTbC1mq70BIfp",
+      "name": "Hangi İz",
+      "artists": [
+        "Onur Özdemir"
+      ],
+      "album": "Hayata",
+      "album_id": "0yDO33hr7Z9E8ebMzT2tqH",
+      "release_date": "2020-12-04",
+      "duration_ms": 239562,
+      "popularity": 26,
+      "artist_genres_main": [],
+      "order_index": 19
+    },
+    {
+      "id": "7x76RN4ZCsw5DxT8LOmexq",
+      "name": "Bal",
+      "artists": [
+        "Duman"
+      ],
+      "album": "Belki Alışman Lazım",
+      "album_id": "5TQ4ZTyFM7FTDpnfSjE54l",
+      "release_date": "2002-10-16",
+      "duration_ms": 313733,
+      "popularity": 59,
+      "artist_genres_main": [
+        "anatolian rock",
+        "turkish pop"
+      ],
+      "order_index": 20
+    },
+    {
+      "id": "6YBOxwOfISXLLSiD0mAQHU",
+      "name": "Neredesin Sen",
+      "artists": [
+        "Kurtalan Ekspres",
+        "Duman"
+      ],
+      "album": "Göğe Selam, Vol. 2",
+      "album_id": "1QKlFodyuw2DmOrZeUnkEa",
+      "release_date": "2014-01-01",
+      "duration_ms": 244973,
+      "popularity": 40,
+      "artist_genres_main": [
+        "anatolian rock"
+      ],
+      "order_index": 21
+    },
+    {
+      "id": "2dkYZzG1KmwBQ0Htpwxf20",
+      "name": "Desem De İnanma",
+      "artists": [
+        "Vega"
+      ],
+      "album": "Tatlı Sert",
+      "album_id": "4cPlsvqqrkiUsArzZBEcSW",
+      "release_date": "2002-02-13",
+      "duration_ms": 265466,
+      "popularity": 40,
+      "artist_genres_main": [
+        "anatolian rock"
+      ],
+      "order_index": 22
+    },
+    {
+      "id": "1WE0ax8JlCR2JQUnk3Ydu8",
+      "name": "Olsun",
+      "artists": [
+        "Cem Kısmet - Pilli Bebek"
+      ],
+      "album": "Behzat Ç. (Orijinal Dizi ve Film Müzikleri)",
+      "album_id": "4EOwuyYWir0IB9bxErak0N",
+      "release_date": "2012-07-05",
+      "duration_ms": 277000,
+      "popularity": 40,
+      "artist_genres_main": [
+        "anatolian rock"
+      ],
+      "order_index": 23
+    },
+    {
+      "id": "2SLb4PihrajyADIES32JyQ",
+      "name": "Bu Defa",
+      "artists": [
+        "Sakin"
+      ],
+      "album": "Hayat",
+      "album_id": "2UU0byg7ixOnleTAnbpOgs",
+      "release_date": "2008-02-29",
+      "duration_ms": 260066,
+      "popularity": 45,
+      "artist_genres_main": [
+        "anatolian rock"
+      ],
+      "order_index": 24
+    },
+    {
+      "id": "2u1B87jh7hcE0ImLMfHNji",
+      "name": "Akıbet",
+      "artists": [
+        "Duman"
+      ],
+      "album": "Darmaduman",
+      "album_id": "6MrE8aTkCV6xuSnVCRJ1Wz",
+      "release_date": "2013-09-12",
+      "duration_ms": 227873,
+      "popularity": 40,
+      "artist_genres_main": [
+        "anatolian rock",
+        "turkish pop"
+      ],
+      "order_index": 25
+    },
+    {
+      "id": "5Wiu5f50MKLwkqgrKdH6lk",
+      "name": "Ne Kadar Zaman Geçti",
+      "artists": [
+        "Hardal"
+      ],
+      "album": "Nasıl? Ne Zaman?",
+      "album_id": "7pWjfZkpV7B4QHlqyZgoyf",
+      "release_date": "1979",
+      "duration_ms": 210573,
+      "popularity": 38,
+      "artist_genres_main": [
+        "anatolian rock"
+      ],
+      "order_index": 26
+    },
+    {
+      "id": "3tCcO0uqXnoB8NnFuMPoIS",
+      "name": "Askti Bu",
+      "artists": [
+        "Redd"
+      ],
+      "album": "21",
+      "album_id": "0mHYRe0jUP2pWxrL7oP5qO",
+      "release_date": "2009",
+      "duration_ms": 202280,
+      "popularity": 54,
+      "artist_genres_main": [
+        "anatolian rock"
+      ],
+      "order_index": 27
+    },
+    {
+      "id": "19Krk7n5dCqGObWPw42w9K",
+      "name": "Mendil",
+      "artists": [
+        "Vega"
+      ],
+      "album": "Hafif Müzik",
+      "album_id": "0kynB1IJW193AzHOFNOa5l",
+      "release_date": "2006-02-23",
+      "duration_ms": 222760,
+      "popularity": 38,
+      "artist_genres_main": [
+        "anatolian rock"
+      ],
+      "order_index": 28
+    },
+    {
+      "id": "2WrdcrNcluEwuUKgaKElKP",
+      "name": "Bir Günah Gibi",
+      "artists": [
+        "Batu Akdeniz"
+      ],
+      "album": "Bir Günah Gibi",
+      "album_id": "3bfz2QtszxzPATLznpsDLX",
+      "release_date": "2024-01-26",
+      "duration_ms": 179973,
+      "popularity": 24,
+      "artist_genres_main": [],
+      "order_index": 29
+    },
+    {
+      "id": "0JVaHDV9om0itoYoYpBBPT",
+      "name": "Haberin Yok Ölüyorum",
+      "artists": [
+        "Duman"
+      ],
+      "album": "Belki Alışman Lazım",
+      "album_id": "5TQ4ZTyFM7FTDpnfSjE54l",
+      "release_date": "2002-10-16",
+      "duration_ms": 361080,
+      "popularity": 59,
+      "artist_genres_main": [
+        "anatolian rock",
+        "turkish pop"
+      ],
+      "order_index": 30
+    },
+    {
+      "id": "2NccPKz7QmGlqupzegmzH3",
+      "name": "Laleler Beyaz",
+      "artists": [
+        "Sakin"
+      ],
+      "album": "Hayat",
+      "album_id": "2UU0byg7ixOnleTAnbpOgs",
+      "release_date": "2008-02-29",
+      "duration_ms": 238506,
+      "popularity": 47,
+      "artist_genres_main": [
+        "anatolian rock"
+      ],
+      "order_index": 31
+    },
+    {
+      "id": "0OOLoETLazFG55CLURAw8h",
+      "name": "Aklımın İplerini Saldım",
+      "artists": [
+        "Yüksek Sadakat"
+      ],
+      "album": "Yüksek Sadakat",
+      "album_id": "4nPhHTUeOSvZCNztvyfoGA",
+      "release_date": "2005-04-21",
+      "duration_ms": 262146,
+      "popularity": 50,
+      "artist_genres_main": [
+        "turkish pop",
+        "anatolian rock"
+      ],
+      "order_index": 32
+    },
+    {
+      "id": "6ATOBWupiEKWVqNXUMTHqo",
+      "name": "Kopuk Uçurtma",
+      "artists": [
+        "Büyük Ev Ablukada"
+      ],
+      "album": "Defansif Dizayn",
+      "album_id": "4tdqUNSOad1UbF2QhjAGoY",
+      "release_date": "2023-12-01",
+      "duration_ms": 235892,
+      "popularity": 47,
+      "artist_genres_main": [],
+      "order_index": 33
+    },
+    {
+      "id": "7IKeb4jtqRFp2x87wVkwIm",
+      "name": "Ankara",
+      "artists": [
+        "Vega"
+      ],
+      "album": "Hafif Müzik",
+      "album_id": "0kynB1IJW193AzHOFNOa5l",
+      "release_date": "2006-02-23",
+      "duration_ms": 322533,
+      "popularity": 53,
+      "artist_genres_main": [
+        "anatolian rock"
+      ],
+      "order_index": 34
+    },
+    {
+      "id": "4KiYAHozD5m5yjz6cc1BqE",
+      "name": "Anılar, O Geceler",
+      "artists": [
+        "Duman"
+      ],
+      "album": "Kufi",
+      "album_id": "5Y2a9iCvO8nflR7838wkrz",
+      "release_date": "2024-12-13",
+      "duration_ms": 285760,
+      "popularity": 46,
+      "artist_genres_main": [
+        "anatolian rock",
+        "turkish pop"
+      ],
+      "order_index": 35
+    },
+    {
+      "id": "7L05IkgbhyfHKWZLQ8Wqwf",
+      "name": "Bugün Herkes Ölsün İstedim",
+      "artists": [
+        "Redd"
+      ],
+      "album": "Mükemmel Boşluk",
+      "album_id": "3R5F9IiOpmQIMvTDQg3YKQ",
+      "release_date": "2016-03-04",
+      "duration_ms": 271808,
+      "popularity": 44,
+      "artist_genres_main": [
+        "anatolian rock"
+      ],
+      "order_index": 36
+    },
+    {
+      "id": "75bQPYPF31NQXxq8XXAY7W",
+      "name": "Kırmızı Oda",
+      "artists": [
+        "Sakin"
+      ],
+      "album": "Hayat",
+      "album_id": "2UU0byg7ixOnleTAnbpOgs",
+      "release_date": "2008-02-29",
+      "duration_ms": 231666,
+      "popularity": 42,
+      "artist_genres_main": [
+        "anatolian rock"
+      ],
+      "order_index": 37
+    },
+    {
+      "id": "7yFKbMudQebVAUDma66HJN",
+      "name": "Hoşçakal Değil",
+      "artists": [
+        "VAGON"
+      ],
+      "album": "Hoşçakal Değil",
+      "album_id": "0TldUQXY2keqGf7v2JnUnn",
+      "release_date": "2020-09-28",
+      "duration_ms": 230285,
+      "popularity": 32,
+      "artist_genres_main": [],
+      "order_index": 38
+    },
+    {
+      "id": "2tLrKX44QWoyfyHpLNgKd9",
+      "name": "Uyut Beni",
+      "artists": [
+        "Kurban"
+      ],
+      "album": "İnsanlar",
+      "album_id": "6C4mld4qfPk7d3g4dGqnMl",
+      "release_date": "2005-01-01",
+      "duration_ms": 299490,
+      "popularity": 40,
+      "artist_genres_main": [
+        "anatolian rock"
+      ],
+      "order_index": 39
+    },
+    {
+      "id": "4mkcIMzTAOzyZhmvMU2vKm",
+      "name": "Yalnızlık Paylaşılmaz",
+      "artists": [
+        "Duman"
+      ],
+      "album": "Eski Köprünün Altında",
+      "album_id": "33JifbYeK4vxnE2v11d1Xf",
+      "release_date": "1999-11-05",
+      "duration_ms": 298373,
+      "popularity": 47,
+      "artist_genres_main": [
+        "anatolian rock",
+        "turkish pop"
+      ],
+      "order_index": 40
+    },
+    {
+      "id": "53YCEHCI1hV6cp4Qn0OlaZ",
+      "name": "En Güzel Yerinde Evin",
+      "artists": [
+        "Büyük Ev Ablukada"
+      ],
+      "album": "Full Faça",
+      "album_id": "5XtyQtCg0tEJDCjfMcNQV3",
+      "release_date": "2012-12-21",
+      "duration_ms": 241013,
+      "popularity": 53,
+      "artist_genres_main": [],
+      "order_index": 41
+    },
+    {
+      "id": "5O3zj7zm9PtGH6KS4qGJRQ",
+      "name": "Aşk İçinde",
+      "artists": [
+        "mor ve ötesi"
+      ],
+      "album": "Dünya Yalan Söylüyor",
+      "album_id": "0QbpgPjg5eOU5ltJ05r4V7",
+      "release_date": "2004-04-16",
+      "duration_ms": 241280,
+      "popularity": 58,
+      "artist_genres_main": [
+        "anatolian rock",
+        "turkish pop"
+      ],
+      "order_index": 42
+    },
+    {
+      "id": "6uS2G7PdDL0qmYs6glOgrO",
+      "name": "Bu Sabahların Bir Anlamı Olmalı",
+      "artists": [
+        "Vega"
+      ],
+      "album": "Tatlı Sert",
+      "album_id": "4cPlsvqqrkiUsArzZBEcSW",
+      "release_date": "2002-02-13",
+      "duration_ms": 268760,
+      "popularity": 66,
+      "artist_genres_main": [
+        "anatolian rock"
+      ],
+      "order_index": 43
+    },
+    {
+      "id": "574jdX8WwhPMtBc1bB6lp3",
+      "name": "Kozmos",
+      "artists": [
+        "Redd"
+      ],
+      "album": "Simulakrum",
+      "album_id": "7M8fpUByQXbGPzb16ukWmf",
+      "release_date": "2025-10-24",
+      "duration_ms": 198977,
+      "popularity": 47,
+      "artist_genres_main": [
+        "anatolian rock"
+      ],
+      "order_index": 44
+    },
+    {
+      "id": "1Tuc5V9GEes0aCBppgJ9KH",
+      "name": "En Güzel Günüm Gecem",
+      "artists": [
+        "Duman"
+      ],
+      "album": "Seni Kendime Sakladım",
+      "album_id": "2gvskYWFqq1fW8scp1kdsj",
+      "release_date": "2005-07-04",
+      "duration_ms": 219813,
+      "popularity": 48,
+      "artist_genres_main": [
+        "anatolian rock",
+        "turkish pop"
+      ],
+      "order_index": 45
+    },
+    {
+      "id": "4KBrnEt8HmPsNhXfwfAjUZ",
+      "name": "Bak",
+      "artists": [
+        "Cem Kısmet - Pilli Bebek"
+      ],
+      "album": "Çekiç ve Gül: Bir Behzat Ç Hikayesi (Original TV Series Soundtrack)",
+      "album_id": "7aJLdts7ljlJJg9gYAVjPN",
+      "release_date": "2024-02-12",
+      "duration_ms": 373696,
+      "popularity": 49,
+      "artist_genres_main": [
+        "anatolian rock"
+      ],
+      "order_index": 46
+    },
+    {
+      "id": "3Jr3GKofFyvRMTWYftTmMm",
+      "name": "Denek Hayatım",
+      "artists": [
+        "Sakin"
+      ],
+      "album": "Rolling Stone Promosyon",
+      "album_id": "1y0on3CsNEvz7vy1NdullS",
+      "release_date": "2008-01-18",
+      "duration_ms": 215066,
+      "popularity": 32,
+      "artist_genres_main": [
+        "anatolian rock"
+      ],
+      "order_index": 47
+    },
+    {
+      "id": "4sSZChYAyz2lFTjo0pgVC8",
+      "name": "Tam Olsun",
+      "artists": [
+        "Yakup",
+        "Duman"
+      ],
+      "album": "Karanlikta",
+      "album_id": "0tDnM21dchyduedeXqNiyx",
+      "release_date": "2006-01-01",
+      "duration_ms": 213866,
+      "popularity": 24,
+      "artist_genres_main": [
+        "anatolian rock"
+      ],
+      "order_index": 48
+    },
+    {
+      "id": "18K55OneX9jdsCiUddsWAp",
+      "name": "Araf",
+      "artists": [
+        "mor ve ötesi"
+      ],
+      "album": "Masumiyetin Ziyan Olmaz",
+      "album_id": "0DNcozUqJOj6NHAOkeASzD",
+      "release_date": "2010-05-06",
+      "duration_ms": 248933,
+      "popularity": 58,
+      "artist_genres_main": [
+        "anatolian rock",
+        "turkish pop"
+      ],
+      "order_index": 49
+    }
+  ]
+}
